@@ -1,7 +1,22 @@
 <!DOCTYPE html>
+    <style>
+        .about_me{
+            max-width: 1040px;
+            margin: 0 auto 0 auto;
+        }
+    </style>
     <head>
-        {% include 'bootstrap-in.html' %}
-        {% include "nav.html" %}
-        <title>Post</title>
+        {% include 'bootstrap-in.html'%}
+        {% include 'nav.html'%}
+        <title>POST</title>
+        <h1 class="text-center p-3">POST ABOUT YOURSELF</h1>
     </head>
+    <body>
+        <br>
+        <div class="shadow-lg p-3 mb-5 bg-body-tertiary rounded about_me border-start border-success p-3 m-3">
+            Name:
+            <br>
+            About Me:
+        </div>
+    </body>
 </html>
